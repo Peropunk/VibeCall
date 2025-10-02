@@ -85,7 +85,7 @@ export default function Index() {
             </p>
             <div className="space-y-4">
               <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                “Vibe coding is outdated. It’s time to VibeCall AI.”
+                ���Vibe coding is outdated. It’s time to VibeCall AI.”
               </h1>
               <p className="text-lg leading-relaxed text-muted-foreground sm:text-xl">
                 Turn every call into a conversation. With real-time speech-to-text, AI reasoning, and lifelike voice, VibeCall AI handles customer interactions seamlessly—so you can focus on scaling your business.
@@ -183,40 +183,6 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="why" className="relative scroll-mt-28 px-6 py-24 lg:px-10">
-        <div className="absolute inset-0 -z-10 bg-section-radial" />
-        <div className="mx-auto max-w-6xl space-y-10">
-          <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <div className="max-w-2xl space-y-4">
-              <p className="text-sm font-semibold uppercase tracking-[0.4em] text-primary">
-                Why VibeCall AI
-              </p>
-              <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-                Your next-gen AI call agent that listens, thinks, and responds—just like a human.
-              </h2>
-            </div>
-            <p className="max-w-2xl text-sm text-muted-foreground">
-              Everything from onboarding flows to call logs is powered by full-stack intelligence. You get happier customers, faster conversions, and the freedom to focus on strategy.
-            </p>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {whyItems.map((item) => (
-              <div
-                key={item.title}
-                className="group relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border border-border/60 bg-card/80 p-8 shadow-brand-soft backdrop-blur transition hover:-translate-y-1 hover:shadow-brand"
-              >
-                <div className="absolute -top-12 right-0 h-24 w-24 rounded-full bg-accent/20 blur-3xl transition group-hover:opacity-80" />
-                <div className="flex items-center gap-4">
-                  <span className="text-3xl">{item.icon}</span>
-                  <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
-                </div>
-                <p className="mt-5 text-sm text-muted-foreground">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section id="demo" className="scroll-mt-28 px-6 py-24 lg:px-10">
         <div className="mx-auto max-w-5xl overflow-hidden rounded-[32px] border border-border/70 bg-card/90 shadow-brand-soft backdrop-blur">
           <div className="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
@@ -254,6 +220,35 @@ export default function Index() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" className="relative scroll-mt-28 px-6 py-24 lg:px-10">
+        <div className="absolute inset-0 -z-10 bg-section-radial" />
+        <div className="mx-auto max-w-6xl space-y-10">
+          <div className="max-w-3xl space-y-4">
+            <p className="text-sm font-semibold uppercase tracking-[0.4em] text-primary">
+              Why VibeCall AI
+            </p>
+            <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+              Your next-gen AI call agent that listens, thinks, and responds—just like a human.
+            </h2>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {whyItems.map((item) => (
+              <div
+                key={item.title}
+                className="group relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border border-border/60 bg-card/80 p-8 shadow-brand-soft backdrop-blur transition hover:-translate-y-1 hover:shadow-brand"
+              >
+                <div className="absolute -top-12 right-0 h-24 w-24 rounded-full bg-accent/20 blur-3xl transition group-hover:opacity-80" />
+                <div className="flex items-center gap-4">
+                  <span className="text-3xl">{item.icon}</span>
+                  <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
+                </div>
+                <p className="mt-5 text-sm text-muted-foreground">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
