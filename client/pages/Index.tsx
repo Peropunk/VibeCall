@@ -85,7 +85,7 @@ export default function Index() {
             </p>
             <div className="space-y-4">
               <h1 className="text-balance text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                ���Vibe coding is outdated. It’s time to VibeCall AI.”
+                &ldquo;Vibe coding is outdated. It's time to VibeCall AI.&rdquo;
               </h1>
               <p className="text-lg leading-relaxed text-muted-foreground sm:text-xl">
                 Turn every call into a conversation. With real-time speech-to-text, AI reasoning, and lifelike voice, VibeCall AI handles customer interactions seamlessly—so you can focus on scaling your business.
