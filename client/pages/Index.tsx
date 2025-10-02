@@ -276,7 +276,7 @@ export default function Index() {
               <div
                 key={tier.name}
                 className={cn(
-                  "relative flex h-full flex-col gap-6 overflow-hidden rounded-4xl border border-border/70 bg-card/90 p-8 shadow-brand-soft backdrop-blur transition hover:-translate-y-1 hover:shadow-brand",
+                  "relative flex h-full flex-col gap-6 overflow-hidden rounded-[32px] border border-border/70 bg-card/90 p-8 shadow-brand-soft backdrop-blur transition hover:-translate-y-1 hover:shadow-brand",
                   tier.highlighted && "border-primary/60 bg-gradient-to-br from-primary/12 via-card/95 to-accent/10",
                 )}
               >
