@@ -1,0 +1,20 @@
+import { PropsWithChildren } from "react";
+import SiteHeader from "./SiteHeader";
+import SiteFooter from "./SiteFooter";
+
+const MainLayout = ({ children }: PropsWithChildren) => {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="relative flex min-h-screen flex-col overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 -z-10 bg-hero-glow opacity-90" />
+        <SiteHeader />
+        <main className="flex-1">
+          {children}
+        </main>
+        <SiteFooter />
+      </div>
+    </div>
+  );
+};
+
+export default MainLayout;
