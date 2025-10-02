@@ -19,7 +19,7 @@ const whyItems = [
     description: "GPT-driven dialog orchestration keeps every call on-script while sounding human.",
   },
   {
-    icon: "🎙️",
+    icon: "��️",
     title: "Crystal-Clear Voice",
     description: "Adaptive TTS renders lifelike voices in 40+ languages, tuned for clarity and warmth.",
   },
@@ -302,13 +302,13 @@ export default function Index() {
           </div>
           <div className="flex flex-col items-center justify-center gap-3 rounded-[32px] border border-border/60 bg-secondary/40 px-8 py-6 text-center text-sm text-muted-foreground backdrop-blur lg:flex-row lg:text-left">
             <p className="font-medium text-foreground">
-              Need tailored compliance, dedicated instances, or premium support?
+              Need tailored compliance, dedicated instances, or premium support? Contact sales for a detailed price breakdown.
             </p>
             <a
               href="#contact"
               className="inline-flex items-center justify-center rounded-full bg-transparent px-4 py-2 text-sm font-semibold text-primary transition hover:text-accent"
             >
-              Contact Sales for Custom Plans →
+              Contact Sales →
             </a>
           </div>
         </div>
