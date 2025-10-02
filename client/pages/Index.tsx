@@ -41,13 +41,6 @@ const pricingTiers = [
     price: "Pay-as-you-go",
     tagline: "Perfect for pilots and side projects.",
     bullets: ["Usage-based billing", "AI voice and STT included", "Self-serve dashboard"],
-    highlighted: false,
-  },
-  {
-    name: "Pro",
-    price: "$249/mo + usage",
-    tagline: "Unlock deeper customization and savings.",
-    bullets: ["Advanced routing rules", "Fine-tuned personalities", "Volume discounts"],
     highlighted: true,
   },
   {
