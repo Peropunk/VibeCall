@@ -34,17 +34,12 @@ const SiteHeader = () => {
           className="group flex items-center gap-3 text-lg font-semibold tracking-tight text-foreground"
         >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F462fdc1538bd468b99eec373dc088499%2F8f2b3bd0e09942cc95800a1654667f53?format=webp&width=200"
+            src="https://cdn.builder.io/api/v1/image/assets%2F462fdc1538bd468b99eec373dc088499%2F8122e50c71cf4a7c9a31314bb8ff1dd7?format=webp&width=320"
             alt="VibeCall AI logo"
-            className="h-9 w-auto"
+            className="h-12 w-auto sm:h-[73px]"
             loading="lazy"
           />
-          <span className="flex flex-col leading-5">
-            <span className="text-base font-semibold">VibeCall AI</span>
-            <span className="text-xs font-medium text-muted-foreground group-hover:text-foreground/80">
-              Call agents that feel human
-            </span>
-          </span>
+          <span className="sr-only">VibeCall AI</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
           {navItems.map((item) => (
