@@ -292,7 +292,7 @@ export default function Index() {
                     "mt-auto inline-flex items-center justify-center rounded-full px-5 py-2 text-sm font-semibold transition",
                     tier.highlighted
                       ? "bg-gradient-to-r from-primary via-primary to-accent text-white shadow-brand"
-                      : "border border-border text-foreground hover:border-primary/60",
+                      : "border border-border text-foreground hover:border-primary/60 hover:text-foreground",
                   )}
                 >
                   Chat with sales
