@@ -120,7 +120,7 @@ export default function Index() {
           <div className="relative">
             <div className="pointer-events-none absolute -left-10 top-6 h-72 w-72 rounded-full bg-accent/30 blur-3xl" />
             <div className="pointer-events-none absolute -right-4 -top-10 h-64 w-64 rounded-full bg-primary/30 blur-3xl" />
-            <div className="relative space-y-6 rounded-4xl border border-white/10 bg-gradient-to-br from-slate-950/80 via-slate-900/90 to-slate-950/70 p-6 text-white shadow-brand">
+            <div className="relative space-y-6 rounded-[32px] border border-white/10 bg-gradient-to-br from-slate-950/80 via-slate-900/90 to-slate-950/70 p-6 text-white shadow-brand">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.3em] text-accent/80">
@@ -312,7 +312,7 @@ export default function Index() {
               </div>
             ))}
           </div>
-          <div className="flex flex-col items-center justify-center gap-3 rounded-4xl border border-border/60 bg-secondary/40 px-8 py-6 text-center text-sm text-muted-foreground backdrop-blur lg:flex-row lg:text-left">
+          <div className="flex flex-col items-center justify-center gap-3 rounded-[32px] border border-border/60 bg-secondary/40 px-8 py-6 text-center text-sm text-muted-foreground backdrop-blur lg:flex-row lg:text-left">
             <p className="font-medium text-foreground">
               Need tailored compliance, dedicated instances, or premium support?
             </p>
