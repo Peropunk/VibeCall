@@ -33,24 +33,12 @@ const SiteHeader = () => {
           href="/"
           className="group flex items-center gap-3 text-lg font-semibold tracking-tight text-foreground"
         >
-          <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-tr from-primary to-accent text-white shadow-brand">
-            <svg
-              viewBox="0 0 40 40"
-              className="h-5 w-5"
-              aria-hidden="true"
-              focusable="false"
-            >
-              <path
-                d="M6.5 12.2C6.5 7.6 10.3 4 14.8 4c2.8 0 5.3 1.3 6.9 3.3l3.5 4.6-4.8 3.8-3.1-4.1c-.5-.7-1.3-1.1-2.3-1.1-1.9 0-3.3 1.5-3.3 3.7v8.2c0 2.2 1.4 3.7 3.3 3.7 1 0 1.8-.4 2.3-1.1l3.1-4.1 4.8 3.8-3.5 4.6c-1.6 2.1-4.1 3.3-6.9 3.3-4.5 0-8.3-3.6-8.3-8.2z"
-                fill="currentColor"
-              />
-              <path
-                d="M24.7 7.5c3.6 0 6.6 3 6.6 6.6 0 1-.2 1.9-.6 2.8l3.5 2.3c.8-1.5 1.2-3.3 1.2-5.1 0-6-4.9-10.9-10.9-10.9-1.5 0-3 .3-4.3.9l1.5 4.1c.9-.4 1.9-.7 3-.7"
-                fill="currentColor"
-                opacity={0.7}
-              />
-            </svg>
-          </span>
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F462fdc1538bd468b99eec373dc088499%2F8f2b3bd0e09942cc95800a1654667f53?format=webp&width=200"
+            alt="VibeCall AI logo"
+            className="h-9 w-auto"
+            loading="lazy"
+          />
           <span className="flex flex-col leading-5">
             <span className="text-base font-semibold">VibeCall AI</span>
             <span className="text-xs font-medium text-muted-foreground group-hover:text-foreground/80">
