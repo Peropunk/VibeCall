@@ -63,6 +63,16 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        "hero-glow":
+          "radial-gradient(circle at 20% 20%, rgba(45, 127, 255, 0.2), transparent 55%), radial-gradient(circle at 80% 0%, rgba(77, 214, 217, 0.28), transparent 60%)",
+        "section-radial":
+          "radial-gradient(circle at 0% 0%, rgba(45, 127, 255, 0.08), transparent 60%)",
+      },
+      boxShadow: {
+        brand: "0 20px 45px -25px rgba(45, 127, 255, 0.6)",
+        "brand-soft": "0 12px 30px -18px rgba(77, 214, 217, 0.55)",
+      },
       keyframes: {
         "accordion-down": {
           from: {
