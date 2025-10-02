@@ -183,7 +183,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="why" className="relative px-6 py-24 lg:px-10">
+      <section id="why" className="relative scroll-mt-28 px-6 py-24 lg:px-10">
         <div className="absolute inset-0 -z-10 bg-section-radial" />
         <div className="mx-auto max-w-6xl space-y-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
@@ -217,7 +217,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="demo" className="px-6 py-24 lg:px-10">
+      <section id="demo" className="scroll-mt-28 px-6 py-24 lg:px-10">
         <div className="mx-auto max-w-5xl overflow-hidden rounded-[32px] border border-border/70 bg-card/90 shadow-brand-soft backdrop-blur">
           <div className="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
             <div className="space-y-6 border-b border-border/60 p-10 lg:border-b-0 lg:border-r">
@@ -258,7 +258,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="pricing" className="px-6 py-24 lg:px-10">
+      <section id="pricing" className="scroll-mt-28 px-6 py-24 lg:px-10">
         <div className="mx-auto max-w-6xl space-y-10">
           <div className="space-y-4 text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.4em] text-primary">
@@ -326,7 +326,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contact" className="px-6 pb-10 lg:px-10">
+      <section id="contact" className="scroll-mt-28 px-6 pb-10 lg:px-10">
         <div className="mx-auto grid max-w-6xl gap-10 rounded-[32px] border border-border/70 bg-card/95 p-10 shadow-brand-soft backdrop-blur lg:grid-cols-[1.05fr_0.95fr]">
           <div className="space-y-6">
             <p className="text-sm font-semibold uppercase tracking-[0.4em] text-primary">
