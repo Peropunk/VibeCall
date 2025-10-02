@@ -11,27 +11,32 @@ const whyItems = [
   {
     icon: "🚀",
     title: "Instant Setup",
-    description: "Launch in minutes with plug-and-play integrations and a guided onboarding flow.",
+    description:
+      "Launch in minutes with plug-and-play integrations and a guided onboarding flow.",
   },
   {
     icon: "🧠",
     title: "Smart Conversations",
-    description: "GPT-driven dialog orchestration keeps every call on-script while sounding human.",
+    description:
+      "GPT-driven dialog orchestration keeps every call on-script while sounding human.",
   },
   {
     icon: "��️",
     title: "Crystal-Clear Voice",
-    description: "Adaptive TTS renders lifelike voices in 40+ languages, tuned for clarity and warmth.",
+    description:
+      "Adaptive TTS renders lifelike voices in 40+ languages, tuned for clarity and warmth.",
   },
   {
     icon: "💸",
     title: "Cost-Effective",
-    description: "Transparent, usage-based pricing means you only pay for minutes that delight customers.",
+    description:
+      "Transparent, usage-based pricing means you only pay for minutes that delight customers.",
   },
   {
     icon: "🌍",
     title: "Scalable",
-    description: "From scrappy startups to global enterprises, VibeCall AI flexes to match your call volume.",
+    description:
+      "From scrappy startups to global enterprises, VibeCall AI flexes to match your call volume.",
   },
 ];
 
@@ -40,20 +45,30 @@ const pricingTiers = [
     name: "Starter",
     price: "Pay-as-you-go",
     tagline: "Perfect for pilots and side projects.",
-    bullets: ["Usage-based billing", "AI voice and STT included", "Self-serve dashboard"],
+    bullets: [
+      "Usage-based billing",
+      "AI voice and STT included",
+      "Self-serve dashboard",
+    ],
     highlighted: true,
   },
   {
     name: "Scale",
     price: "Custom",
     tagline: "Built for teams and enterprises with compliance needs.",
-    bullets: ["Dedicated success partner", "SLA & compliance add-ons", "Private deployments"],
+    bullets: [
+      "Dedicated success partner",
+      "SLA & compliance add-ons",
+      "Private deployments",
+    ],
     highlighted: false,
   },
 ];
 
 const loadTypeform = () => {
-  if (document.querySelector('script[src="//embed.typeform.com/next/embed.js"]')) {
+  if (
+    document.querySelector('script[src="//embed.typeform.com/next/embed.js"]')
+  ) {
     return;
   }
   const script = document.createElement("script");
@@ -81,7 +96,10 @@ export default function Index() {
                 &ldquo;Vibe coding is outdated. It's time to VibeCall AI.&rdquo;
               </h1>
               <p className="text-lg leading-relaxed text-muted-foreground sm:text-xl">
-                Turn every call into a conversation. With real-time speech-to-text, AI reasoning, and lifelike voice, VibeCall AI handles customer interactions seamlessly—so you can focus on scaling your business.
+                Turn every call into a conversation. With real-time
+                speech-to-text, AI reasoning, and lifelike voice, VibeCall AI
+                handles customer interactions seamlessly—so you can focus on
+                scaling your business.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-4">
@@ -119,7 +137,9 @@ export default function Index() {
                   <p className="text-sm font-semibold uppercase tracking-[0.3em] text-accent/80">
                     Live Call
                   </p>
-                  <h2 className="mt-2 text-2xl font-semibold">Samantha • VibeCall Agent</h2>
+                  <h2 className="mt-2 text-2xl font-semibold">
+                    Samantha • VibeCall Agent
+                  </h2>
                   <p className="text-sm text-slate-300">
                     Listening, thinking, and responding in real time.
                   </p>
@@ -131,15 +151,21 @@ export default function Index() {
               </div>
               <div className="space-y-4 rounded-3xl bg-slate-900/70 p-5 shadow-inner">
                 <div className="space-y-2">
-                  <p className="text-xs uppercase tracking-wide text-slate-400">Customer</p>
+                  <p className="text-xs uppercase tracking-wide text-slate-400">
+                    Customer
+                  </p>
                   <div className="rounded-2xl bg-slate-800/60 p-4 text-sm text-slate-100 shadow-inner">
-                    “Hey, I’m curious if you support international shipping to Berlin?”
+                    “Hey, I’m curious if you support international shipping to
+                    Berlin?”
                   </div>
                 </div>
                 <div className="space-y-2 text-emerald-100">
-                  <p className="text-xs uppercase tracking-wide text-emerald-300/80">VibeCall AI</p>
+                  <p className="text-xs uppercase tracking-wide text-emerald-300/80">
+                    VibeCall AI
+                  </p>
                   <div className="rounded-2xl border border-emerald-400/20 bg-emerald-500/10 p-4 text-sm">
-                    “Absolutely! We deliver to Berlin in five business days and can book that for you now.”
+                    “Absolutely! We deliver to Berlin in five business days and
+                    can book that for you now.”
                   </div>
                 </div>
                 <div className="grid grid-cols-3 gap-3 text-xs">
@@ -155,7 +181,9 @@ export default function Index() {
                       <p className="text-[10px] uppercase tracking-wide text-slate-400">
                         {metric.label}
                       </p>
-                      <p className="mt-1 text-sm font-semibold text-white">{metric.value}</p>
+                      <p className="mt-1 text-sm font-semibold text-white">
+                        {metric.value}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -164,7 +192,8 @@ export default function Index() {
                 <div>
                   <p className="font-semibold text-white">Auto QA Summary</p>
                   <p className="mt-1 text-slate-400">
-                    Qualified lead, booked follow-up demo, captured product interest in CRM.
+                    Qualified lead, booked follow-up demo, captured product
+                    interest in CRM.
                   </p>
                 </div>
                 <button className="rounded-full bg-white/10 px-4 py-2 font-semibold text-white transition hover:bg-white/20">
@@ -184,10 +213,13 @@ export default function Index() {
                 Live Demo
               </p>
               <h2 className="text-3xl font-semibold tracking-tight text-foreground">
-                “Cold calls are annoying. VibeCall AI makes them personal, warm, and human-like.”
+                “Cold calls are annoying. VibeCall AI makes them personal, warm,
+                and human-like.”
               </h2>
               <p className="text-sm text-muted-foreground">
-                Watch Samantha, our flagship voice agent, handle a product qualification call end-to-end. Hear how she adapts tone, probes for context, and books meetings with zero human intervention.
+                Watch Samantha, our flagship voice agent, handle a product
+                qualification call end-to-end. Hear how she adapts tone, probes
+                for context, and books meetings with zero human intervention.
               </p>
               <ul className="space-y-3 text-sm text-muted-foreground">
                 {[
@@ -225,7 +257,8 @@ export default function Index() {
               Why VibeCall AI
             </p>
             <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Your next-gen AI call agent that listens, thinks, and responds—just like a human.
+              Your next-gen AI call agent that listens, thinks, and
+              responds—just like a human.
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -237,9 +270,13 @@ export default function Index() {
                 <div className="absolute -top-12 right-0 h-24 w-24 rounded-full bg-accent/20 blur-3xl transition group-hover:opacity-80" />
                 <div className="flex items-center gap-4">
                   <span className="text-3xl">{item.icon}</span>
-                  <h3 className="text-xl font-semibold text-foreground">{item.title}</h3>
+                  <h3 className="text-xl font-semibold text-foreground">
+                    {item.title}
+                  </h3>
                 </div>
-                <p className="mt-5 text-sm text-muted-foreground">{item.description}</p>
+                <p className="mt-5 text-sm text-muted-foreground">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>
@@ -256,7 +293,9 @@ export default function Index() {
               Simple, transparent pricing.
             </h2>
             <p className="mx-auto max-w-2xl text-sm text-muted-foreground">
-              Choose the plan that fits your team today and scale effortlessly. Every tier includes real-time analytics, secure infrastructure, and ongoing model improvements.
+              Choose the plan that fits your team today and scale effortlessly.
+              Every tier includes real-time analytics, secure infrastructure,
+              and ongoing model improvements.
             </p>
           </div>
           <div className="grid gap-6 lg:grid-cols-3">
@@ -265,7 +304,8 @@ export default function Index() {
                 key={tier.name}
                 className={cn(
                   "relative flex h-full flex-col gap-6 overflow-hidden rounded-[32px] border border-border/70 bg-card/90 p-8 shadow-brand-soft backdrop-blur transition hover:-translate-y-1 hover:shadow-brand",
-                  tier.highlighted && "border-primary/60 bg-gradient-to-br from-primary/12 via-card/95 to-accent/10",
+                  tier.highlighted &&
+                    "border-primary/60 bg-gradient-to-br from-primary/12 via-card/95 to-accent/10",
                 )}
               >
                 {tier.highlighted && (
@@ -274,9 +314,15 @@ export default function Index() {
                   </span>
                 )}
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-semibold text-foreground">{tier.name}</h3>
-                  <p className="text-lg font-semibold text-primary">{tier.price}</p>
-                  <p className="text-sm text-muted-foreground">{tier.tagline}</p>
+                  <h3 className="text-2xl font-semibold text-foreground">
+                    {tier.name}
+                  </h3>
+                  <p className="text-lg font-semibold text-primary">
+                    {tier.price}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    {tier.tagline}
+                  </p>
                 </div>
                 <ul className="space-y-3 text-sm text-muted-foreground">
                   {tier.bullets.map((bullet) => (
@@ -302,7 +348,8 @@ export default function Index() {
           </div>
           <div className="flex flex-col items-center justify-center gap-3 rounded-[32px] border border-border/60 bg-secondary/40 px-8 py-6 text-center text-sm text-muted-foreground backdrop-blur lg:flex-row lg:text-left">
             <p className="font-medium text-foreground">
-              Need tailored compliance, dedicated instances, or premium support? Contact sales for a detailed price breakdown.
+              Need tailored compliance, dedicated instances, or premium support?
+              Contact sales for a detailed price breakdown.
             </p>
             <a
               href="#contact"
@@ -321,10 +368,13 @@ export default function Index() {
               Start vibing
             </p>
             <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Stop coding your conversations. Start vibing with them. Try VibeCall AI today.
+              Stop coding your conversations. Start vibing with them. Try
+              VibeCall AI today.
             </h2>
             <p className="text-sm text-muted-foreground">
-              Tell us about your use case and we’ll spin up a voice agent that mirrors your best rep. No complex integrations—just a guided launch and a real AI teammate.
+              Tell us about your use case and we’ll spin up a voice agent that
+              mirrors your best rep. No complex integrations—just a guided
+              launch and a real AI teammate.
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-3 rounded-2xl border border-border/60 bg-background/80 px-4 py-3 backdrop-blur">
@@ -350,7 +400,10 @@ export default function Index() {
           <div className="relative min-h-[420px] rounded-[28px] border border-border/70 bg-background/80 p-6">
             <div className="absolute inset-0 rounded-[28px] border border-white/40" />
             <div className="relative h-full w-full">
-              <div data-tf-live="01K6HZ8NX2T051M293TW90VSNS" className="h-full w-full" />
+              <div
+                data-tf-live="01K6HZ8NX2T051M293TW90VSNS"
+                className="h-full w-full"
+              />
             </div>
           </div>
         </div>
